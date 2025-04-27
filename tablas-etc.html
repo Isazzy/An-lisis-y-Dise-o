@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Brunette</title>
+</head>
+<body>
+  <h3>Tabla con encabezado y pie</h3>
+  <table style="border: 1px solid black; border-collapse: collapse;">
+    <caption>Ventas del mes</caption>
+    <thead>
+      <tr>
+        <th style="border: 1px solid black; border-collapse: collapse;">Nombre</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">DNI</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">Monto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th style="border: 1px solid black; border-collapse: collapse;">Juan</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">36584112</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">5000</th>
+      </tr>
+      <tr>
+        <th style="border: 1px solid black; border-collapse: collapse;">Ana</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">40811233</th>
+        <th style="border: 1px solid black; border-collapse: collapse;">6200</th>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" style="border: 1px solid black;"><strong>Total</strong></td>
+        <td style="border: 1px solid black;"><strong>11200</strong></td>
+      </tr>
+    </tfoot>
+  <h4>Ecabezado Vertical</h4>
+  <table style="border: 1px solid black; border-collapse: collapse;">
+    <tr>
+      <th style="border: 1px solid black;">Nombre</th>
+      <th style="border: 1px solid black;">Juan</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black;">DNI</th>
+      <th style="border: 1px solid black;">36584112</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black;">Monto</th>
+      <th style="border: 1px solid black;">5000</th>
+    </tr>
+  </table>
+<h4>Estilo por columnas</h4>
+<table style="border: 1px solid black; border-collapse: collapse;">
+  <caption>Gastos</caption>
+  <colgroup>
+    <col span="1" style="background-color: #f0f0f0;">
+    <col span="2" style="background-color: #d0f0d0;">
+  </colgroup>
+  <tr>
+    <th style="border: 1px solid black;">Producto</th>
+    <th style="border: 1px solid black;">Cantidad</th>
+    <th style="border: 1px solid black;">Precio</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">Pan</td>
+    <td style="border: 1px solid black;">2</td>
+    <td style="border: 1px solid black;">$100</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">Leche</td>
+    <td style="border: 1px solid black;">1</td>
+    <td style="border: 1px solid black;">$80</td>
+  </tr>
+</table>
+<h3>Horario escolar</h3>
+<table style="border: 1px solid black; border-collapse: collapse;"></table>
+  <caption>Horario semanal</caption>
+  <tr>
+    <th style="border: 1px solid black;">Dia</th>
+    <th style="border: 1px solid black;" colspan="2">Horario 1</th>
+    <th style="border: 1px solid black;" colspan="2">Horario 2</th>
+  </tr>
+  <tr>
+    <th style="border: 1px solid black;"></th>
+    <th style="border: 1px solid black;">08:00</th>
+    <th style="border: 1px solid black;">09:00</th>
+    <th style="border: 1px solid black;">10:00</th>
+    <th style="border: 1px solid black;">11:00</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;" rowspan="2">Lunes</td>
+    <td style="border: 1px solid black;" colspan="2">Matemática</td>
+    <td style="border: 1px solid black;">Recreo</td>
+    <td style="border: 1px solid black;">Historia</td>
+  </tr>
+
+</body>
+</html>
